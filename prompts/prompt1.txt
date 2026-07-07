@@ -1,3 +1,5 @@
 1. actua como dise;ador grafico, mejora la parte visual de este menu, modifica el html  e implementa css para que se vea mas colorido, manten separado el css y el html
 
 2.esta genial, pero me gustaria que los colores y estilo de letras se va mas moderno
+
+3.chat no me gusta que se parezca al juego de limones, quiero que tenga un aspecto diferente

@@ -3,17 +3,17 @@
 
 <head>
 
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Hub</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Centro de Juegos</title>
 
     <link rel="stylesheet" href="estilos.css">
 
@@ -21,51 +21,71 @@
 
 <body>
 
+<div class="background"></div>
+
 <div class="contenedor">
 
-    <div class="titulo">
+    <header>
 
-        <h1>🎮 CENTRO DE JUEGOS 🎮</h1>
+        <span class="logo">🎮</span>
+
+        <h1>GAME HUB</h1>
 
         <p>
-            Juegos de destreza ideales para divertirse y mejorar tus reflejos.
+            Elige una aventura y comienza a jugar
+        </br>
+        </p>
+        <p> 
+            Juegos de destreza ideales para divertirse y mejorar tus reflejos
         </p>
 
-        <span>Desarrollado por Mishell Yanez</span>
+    </header>
 
-    </div>
+    <section class="juegos">
 
-    <div class="menu">
+        <a href="https://juego-limones-chi.vercel.app/" class="card limones">
 
-        <a class="card" href="https://juego-limones-chi.vercel.app/">
+            <div>
 
-            <div class="icono">🍋</div>
+                <span class="emoji">🍋</span>
 
-            <h2>Atrapa Limones</h2>
+                <h2>Atrapa Limones</h2>
 
-            <p>
-                Atrapa la mayor cantidad de limones antes de perder todas tus vidas.
-            </p>
+                <p>
+                    Pon a prueba tus reflejos atrapando todos los limones antes de perder tus vidas.
+                </p>
 
-            <button>JUGAR</button>
-
-        </a>
-
-        <a class="card" href="https://juego-cazando-jade.vercel.app/">
-
-            <div class="icono">💎</div>
-
-            <h2>Cazando Jade</h2>
-
-            <p>
-                Encuentra el jade y consigue la mayor puntuación posible.
-            </p>
+            </div>
 
             <button>JUGAR</button>
 
         </a>
 
-    </div>
+        <a href="https://juego-cazando-jade.vercel.app/" class="card jade">
+
+            <div>
+
+                <span class="emoji">💎</span>
+
+                <h2>Cazando Jade</h2>
+
+                <p>
+                    Explora el escenario y encuentra el jade escondido para conseguir la mayor puntuación.
+                </p>
+
+            </div>
+
+            <button>JUGAR</button>
+
+        </a>
+
+    </section>
+
+    <footer>
+
+        Desarrollado por <strong>Mishell Yanez</strong>
+
+    </footer>
 
 </div>
 
